@@ -500,7 +500,7 @@ font-size: 70%;
 .home {
     min-height: 100vh;
     display: flex;
-    background: url(./img/fondo.jpg) no-repeat;
+    background: url(./img/fondo(1).jpg) no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
