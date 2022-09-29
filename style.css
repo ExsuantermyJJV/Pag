@@ -8,13 +8,13 @@
 	overflow: hidden;
 	
 }
-ul {
+.lista {
 	list-style: none;
 	padding-left: 5px;
 	animation: cambiar 7s infinite;
 }
 
-ul, p {
+.lista, p {
 	margin: 0;
 }
 
