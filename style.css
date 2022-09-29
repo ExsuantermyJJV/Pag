@@ -11,7 +11,7 @@
 .lista {
 	list-style: none;
 	padding-left: 5px;
-	animation: cambiar 7s infinite;
+	animation: cambiar 7s 2;
 }
 
 .lista, p {
