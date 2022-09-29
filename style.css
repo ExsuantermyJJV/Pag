@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+.contenedor1 {
+	display: flex;
+	height: 40px;
+	color: #fff;
+	font-size: 2em;
+	line-height: 40px;
+	overflow: hidden;
+	
+}
+ul {
+	list-style: none;
+	padding-left: 5px;
+	animation: cambiar 7s infinite;
+}
 
+ul, p {
+	margin: 0;
+}
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+	
+	25% {margin-top: -40px;}
+	50% {margin-top: -40px;}
+	
+	55% {margin-top: -80px;}
+	80% {margin-top: -80px;}
+	
+	85% {margin-top: -40px;}
+	95% {margin-top: -40px;}
+	
+	100% {margin-top: 0;}
+}
 /* Boton nuevo */
 
 .docc{
