@@ -983,7 +983,6 @@ button a{
   -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
   -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
   -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-overflow: hidden;
 }
 
 #main-button ~ a {
@@ -1013,7 +1012,6 @@ overflow: hidden;
   -moz-transition: .2s all linear;
   -ms-transition: .2s all linear;
   -o-transition: .2s all linear;
-	overflow: hidden;
 }
 
 #main-button ~ .telegram-color {
@@ -1054,7 +1052,6 @@ overflow: hidden;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-	overflow: hidden;
 }
 
 @keyframes wave {
@@ -1064,6 +1061,7 @@ overflow: hidden;
 
 .open {
   animation-iteration-count: 1;
+overflow: hidden;
 }
 /* */ 
 .footer {
