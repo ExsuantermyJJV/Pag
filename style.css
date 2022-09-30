@@ -937,6 +937,7 @@ font-size: 70%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+	overflow: hidden;
 }
 
 button a{
@@ -970,6 +971,7 @@ button a{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+	overflow: hidden;
 }
 
 #main-button.open ~ button {
@@ -1011,6 +1013,7 @@ overflow: hidden;
   -moz-transition: .2s all linear;
   -ms-transition: .2s all linear;
   -o-transition: .2s all linear;
+	overflow: hidden;
 }
 
 #main-button ~ .telegram-color {
@@ -1051,6 +1054,7 @@ overflow: hidden;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+	overflow: hidden;
 }
 
 @keyframes wave {
