@@ -12,7 +12,7 @@
  width: 100px;
 }
 .heading1 {
-  padding-top: 3%;
+  
   padding-bottom: 3%;
   text-align: center;
   font-size: 3.5rem;
@@ -22,7 +22,7 @@
 .container1 {
   text-align: center;
   align-items: center;
-height: 190px;
+height: 230px;
 padding-bottom: 20%;
 }
 .pelota {
@@ -41,8 +41,20 @@ text-align: center;
   width: 300px;
   align-items: center;
   display: flex;
+  padding-top: 3%;
   justify-content: space-around;
 }
+.buttons1 {
+  padding: auto;
+  margin: auto;
+text-align: center;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  padding-top: 30%;
+  justify-content: space-around;
+}
+
 
 .btn1 {
   text-align: center;
