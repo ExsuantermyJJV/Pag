@@ -981,6 +981,7 @@ button a{
   -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
   -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
   -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+overflow: hidden;
 }
 
 #main-button ~ a {
