@@ -1061,7 +1061,6 @@ button a{
 
 .open {
   animation-iteration-count: 1;
-overflow: hidden;
 }
 /* */ 
 .footer {
