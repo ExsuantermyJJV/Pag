@@ -468,6 +468,14 @@ a {
       padding-top: 12%;
     }
     }
+
+@media (max-width: 500px) {
+  .buttons1 {
+    padding-top: 30%;
+  }
+ }
+
+
 /*  fin acordeon */
 
 .btn {
