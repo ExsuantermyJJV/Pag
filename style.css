@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
 /**/
+.runner{
+  margin: auto;
+  width: 115px;
+  height: 150px;
+  background-image: url('./img/sprite.jpg');
+  background-size: 800%, 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  animation-name: run;
+  animation-duration: 1s;
+  animation-timing-function: steps(7);
+  animation-iteration-count: infinite;
+  border-image:black;
+}
 
+@keyframes run {
+  from {
+    background-position: left;
+  }
+  to { 
+    background-position: right;
+  };
+}
 .spiderr{
   text-align: center;
   margin: 40px auto;
