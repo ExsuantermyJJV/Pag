@@ -39,8 +39,15 @@
   text-align: center;
   font-size: 3.5rem;
   color: #00d9ff;
-
 }
+
+.heading2 {
+  padding-top: 2%;
+  text-align: center;
+  font-size: 3rem;
+  color: #00d9ff;
+}
+
 .container1 {
   text-align: center;
   align-items: center;
