@@ -85,4 +85,14 @@ $pause1Button.addEventListener('click', (event) => {
 
 
 /* run */
+document.getElementById('runner').style.animationPlayState = "paused";
 
+const $play2Button = document.getElementById('play2');
+const $pause2Button = document.getElementById('pause2');
+
+$play2Button.addEventListener('click', (event) => {
+  document.getElementById('runner').style.animationPlayState= "running";
+})
+$pause2Button.addEventListener('click', (event) => {
+  document.getElementById('runner').style.animationPlayState= "paused";
+})
