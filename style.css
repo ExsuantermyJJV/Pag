@@ -114,12 +114,15 @@ text-align: center;
 	animation: cambiar 7s 1;
 	color: #00d9ff;
 }
+.lista:hover {
+	color:white;
+}
 
 .lista, p {
 	margin: 0;
 }
 
-.lista p:hover {
+.lista, p:hover {
   color: #00d9ff;
 }
 
