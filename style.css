@@ -108,24 +108,12 @@ text-align: center;
 	overflow: hidden;
 	
 }
-.contenedor1:hover {
-	color: #fff;
-}
-
-.contenedor .lista, p:hover{
-  color: #00d9ff;
-}
-
 .lista {
 	list-style: none;
 	padding-left: 5px;
 	animation: cambiar 7s 1;
 	color: #00d9ff;
 }
-.lista:hover {
-	color:white;
-}
-
 .lista, p {
 	margin: 0;
 }
