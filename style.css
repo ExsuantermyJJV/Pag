@@ -112,10 +112,15 @@ text-align: center;
 	list-style: none;
 	padding-left: 5px;
 	animation: cambiar 7s 1;
+	color: #00d9ff;
 }
 
 .lista, p {
 	margin: 0;
+}
+
+.lista p:hover {
+  color: #00d9ff;
 }
 
 @keyframes cambiar {
